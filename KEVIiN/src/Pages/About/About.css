@@ -1,0 +1,66 @@
+.imgAbout {
+  filter: brightness(48%);
+}
+@media screen and (max-width: 680px) {
+  .aboutItem {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .imgAbout {
+    width: 400px;
+    height: 200px;
+    margin-bottom: 3rem;
+  }
+  .btnAbout {
+    text-align: center;
+    margin-left: 28%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .aboutItem {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  .imgAbout {
+    height: 610px;
+    width: 350px;
+    height: 300px;
+  }
+  .aboutSection:hover {
+    background: linear-gradient(-45deg, #2637b8, #95a0bf, #7faef0, #08334d);
+    color: #0b0b0b;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 0;
+    height:512px;
+    border-radius: 20px;
+  }
+  .aboutSection .AboutStation:hover{
+    margin-top: 19px;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .aboutSection button:hover {
+    background-color: #686868;
+  }
+}
+@media screen and (max-width: 578px) {
+  .imgAbout {
+    width: 100%;
+  }
+  .cardAbout {
+    padding: 0 16px;
+  }
+}

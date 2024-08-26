@@ -1,0 +1,8 @@
+.homeSocial a{
+    font-size: 22px ;
+    color: #000000;
+    padding:8px 0px;
+}
+.homeSocial a:hover{
+    color: #b4b705;
+}

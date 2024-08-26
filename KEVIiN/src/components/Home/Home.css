@@ -1,0 +1,84 @@
+.homeImg{
+animation: ProfileAnimation 5s ease-in-out infinite 1s;
+}
+@keyframes ProfileAnimation{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% /50% 60% 30% 60%;
+    }
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+@media screen and (max-width:803px) {
+    .homeData a{
+        width: 55%;
+    }
+    .homeData{
+        width: 40%;
+    }
+  
+}
+@media screen and (min-width:803px) {
+    .homeData a{
+        width: 60%;
+    }
+    .homeData{
+  width: 50%;
+    }
+    .homeDesc{
+  padding-right: 80px;
+    }
+    .container{
+        width: 59%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:680px) {
+    .homeData a{
+        width: 50%;
+    }
+    .homeContent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeSocial{
+        display: flex;
+        flex-direction:row;
+        margin-right:5rem;
+
+    }
+    .homeSocial a{
+        padding: 0 2rem;
+    }
+    .homeImg{
+        margin-left: -1rem;
+    }
+    .homeContainer{
+        margin-left: 3rem;
+    }
+}
+@media screen and (min-width:680px) {
+    .homeContent{
+        display: flex;
+        flex-direction:row;
+        margin-left:11px;
+    }
+    .homeSocial{
+        display: flex;
+        flex-direction: column;
+        margin-right: 2rem;
+    }
+}
+@media screen and (max-width:598px) {
+    .homeData a{
+        width:77%;
+    }
+   .homeSocial{
+    margin-right: 3rem;
+   }
+}

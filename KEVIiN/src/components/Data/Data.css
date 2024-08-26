@@ -1,0 +1,26 @@
+.homeSubtitle{
+    position: relative;
+    font-size: 18px;
+    color: #645e5e;
+    font-weight: 300;
+    margin-left: 5rem;
+
+}
+.homeSubtitle::before{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color:#807e7e;
+    margin-top: 3px;
+    left: 0;
+    top:50%;
+    /*  new lines  */
+  margin-left: -80px;
+}
+.btnHi:hover{
+    color: #bcbf05;
+}
+.m{
+    color: #a9a6a6;
+}

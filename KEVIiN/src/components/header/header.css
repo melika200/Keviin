@@ -1,0 +1,15 @@
+
+.headerItem{
+  box-shadow: rgba(112, 172, 207, 0.35) 0px 5px 15px;
+  background-color: rgb(95, 155, 246);
+}
+
+
+/* Active Link */
+.active,
+.nav-link:hover {
+  color: var(--bs-emphasis-color);
+}
+
+
+

@@ -1,0 +1,57 @@
+.skilltable {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 20px;
+}
+.row {
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 850px) {
+  .row {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tabels{
+    padding-bottom: 1rem;
+  }
+  .skilltable {
+    margin-top: 2rem;
+    width: 85%;
+  }
+  .add{
+  }
+  .skillItems{
+    padding-left:0.1rem;
+    margin-left: 2rem;
+  }
+
+}
+@media screen and (max-width: 980px) {
+  .point{
+    width: 55%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 980px) {
+  .point{
+    width: 35%;
+    margin: auto;
+  }
+}
+
+
+@media screen and (min-width:780px) {
+.skillItems{
+  margin-left: 5rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+}
+@media screen and (max-width: 780px) {
+.point{
+  width: 80%;
+  margin: auto 6.5rem;
+}
+}

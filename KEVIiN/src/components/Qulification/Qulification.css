@@ -1,0 +1,44 @@
+.rounder{
+    background-color: #414040;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.line{
+    width: 1px;
+    height: 100%;
+    background-color: #414040;
+    transform: translate(6px,-7px);
+    display: block;
+}
+@media screen and (max-width:576px) {
+    .bety{
+        margin-left: 99%;
+    }
+    .oew{
+      margin-right: 16%;
+    }
+    .ComponentQulification{
+        max-width: 214px;
+        margin-right: 41%;
+    }
+    .akhar{
+        margin-left: 92%;
+    }
+}
+@media screen and (min-width:576px) {
+    .ComponentQulification{
+        max-width: 255px;
+        margin-left: 10%;
+    }
+    .bety{
+        margin-left: 86%;
+    }
+    .akhar{
+        margin-left: 85%;
+    }
+    .oew{
+      margin-right: 22%;
+    }
+}

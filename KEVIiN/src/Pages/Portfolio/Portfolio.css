@@ -1,0 +1,29 @@
+/*  */
+.carousel-inner{
+    /* padding: 6rem; */
+}
+.carousel-control-next{
+    display: none;
+}
+.carousel-control-prev{
+    display: none;
+}
+.slider-portfolio{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 3rem 0;
+}
+@media screen and (max-width:802px) {
+.carousel-inner{
+    padding: 1.75rem 2rem;
+}
+.slider-portfolio{
+    width: 300px;
+    margin: 60px auto;
+}
+}
+@media screen and (min-width:803px) {
+    .carousel-inner{
+        padding: 6rem;
+    }
+   
+}
